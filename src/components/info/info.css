@@ -1,0 +1,141 @@
+.info-section{
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-wrapper{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.info-left-card-container{
+    padding: 20px 0px;
+    height: 480px;
+    width: 35%;
+}
+.info-left-card{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    background-color: var(--light-pink);
+    box-shadow: 0px 3px 40px #e5e9f3;
+    cursor: pointer;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+.info-left-card p{
+    text-align: left;
+    width: 90%;
+}
+.info-left-card svg{
+    font-size: 3rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.info-left-card h2,.info-right-card h2{
+    width: 90%;
+    text-align: left;
+    font-size: 3rem;
+}
+.info-right-card h2{
+    font-size: 2rem;
+}
+.info-right-card p{
+    width: 90%;
+    text-align: left;
+    text-transform: capitalize;
+}
+.info-right-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 10px 0px 0px;
+    width: 65%;
+    flex-wrap: wrap;
+}
+.info-right-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px 0px;
+    min-width: 45%;
+    background-color: var(--light-green);
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 40px #e5e9f3;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+.info-right-card svg{
+    font-size: 2rem;
+    color: rgb(71, 71, 71);
+    font-weight: lighter;
+    margin: 0px 0px 30px 15px;
+    align-self: flex-start;
+}
+.small-thin-line{
+    margin: 20px 0px;
+    width: 50px;
+    height: 2px;
+    background-color: whitesmoke;
+}
+
+@media (max-width: 990px) and (min-width: 768px){
+   .info-left-card-container{
+    flex-wrap: wrap;
+   }
+}
+@media screen and (max-width: 767px){
+    .info-overlay{
+        background-position: top;
+    }
+    .info-card svg{
+        font-size: 3.5rem;
+    }
+    .info-card h3{
+        color: white;
+        font-size: 1.1rem;
+    }
+    .info-card h2{
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: white;
+        font-size: 1.5rem;
+        font-family: montserrat,lato,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .info-section{
+        height: auto;
+    }
+    .info-left-card-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info-left-card{
+        width: 90%;
+        margin: auto;
+    }
+    .info-right-card-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .info-right-card{
+        width: 90%;
+    }
+    .info-wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+}
