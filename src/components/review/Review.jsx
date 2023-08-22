@@ -34,9 +34,9 @@ const Review = () => {
             <h1 data-aos="fade-up">custormer reviews</h1>
         </div>
         <div className="review-card-container">
-          <div className="review-card">
+          <div className="review-card" data-aos="fade-up">
             <div className="review-card-img-container">
-              <img src="/istockphoto-1133598770-170667a.jpg" alt="" />
+              <img src="/black.jpg" alt="" />
               <div className="review-card-rating-container">
                 <div className="rate-icon-container">
                   <AiTwotoneStar />
@@ -45,22 +45,22 @@ const Review = () => {
                   <AiTwotoneStar />
                   <AiTwotoneStar />
                 </div>
-                <p className='investor-name'>investor name</p>
+                <p className='investor-name'>John D.</p>
               </div>
             </div>
             <div className="investor-review-container">
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, aliquam.</p>
+              <p>I've been investing with MultichainFinance for over a year now, and I couldn't be happier with the results. The team's expertise in utilizing IRAs for real estate and cryptocurrencies is truly remarkable. They've not only helped me diversify my investment portfolio but also guided me through the entire process with professionalism and transparency. My investments have shown consistent growth, and I feel confident knowing that my financial future is in capable hands. MultichainFinance is definitely the go-to company for anyone looking to make the most out of their IRA investments.</p>
               <span className="left-quote">
                 <ImQuotesRight />
               </span>
             </div>
           </div>
-          <div className="review-card">
+          <div className="review-card" data-aos="fade-up">
             <div className="review-card-img-container">
-              <img src="/istockphoto-1322849492-170667a.jpg" alt="" />
+              <img src="/black2.jpg" alt="" />
               <div className="review-card-rating-container">
                 <div className="rate-icon-container">
                   <AiTwotoneStar />
@@ -69,22 +69,22 @@ const Review = () => {
                   <AiTwotoneStar />
                   <AiTwotoneStar />
                 </div>
-                <p className='investor-name'>investor name</p>
+                <p className='investor-name'>Sarah M.</p>
               </div>
             </div>
             <div className="investor-review-container">
              <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, aliquam.</p>
+              <p>MultichainFinance has exceeded my expectations in every way possible. As someone who wanted to explore investment opportunities beyond traditional options, I was initially hesitant. However, the team's in-depth knowledge and personalized approach put my mind at ease. They carefully analyzed my financial goals and risk tolerance before creating a tailored investment strategy that included both real estate and cryptocurrencies. The results speak for themselves – my portfolio has seen substantial growth, and I'm grateful for the guidance and expertise MultichainFinance has provided.</p>
               <span className="left-quote">
                 <ImQuotesRight />
               </span>
             </div>
           </div>
-          <div className="review-card">
+          <div className="review-card" data-aos="fade-up">
             <div className="review-card-img-container">
-              <img src="/istockphoto-1342247162-170667a.jpg" alt="" />
+              <img src="/black3.jpg" alt="" />
               <div className="review-card-rating-container">
                 <div className="rate-icon-container">
                   <AiTwotoneStar />
@@ -93,14 +93,14 @@ const Review = () => {
                   <AiTwotoneStar />
                   <AiTwotoneStar />
                 </div>
-                <p className='investor-name'>investor name</p>
+                <p className='investor-name'>Michael H.</p>
               </div>
             </div>
             <div className="investor-review-container">
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, aliquam.</p>
+              <p>Choosing MultichainFinance for my IRA investments was undoubtedly one of the best decisions I've made. The team's deep understanding of both real estate and crypto markets is evident in their well-researched and strategic investment approach. They take the time to explain the intricacies of each investment, ensuring I'm well-informed and comfortable with the decisions being made. The returns I've witnessed have been impressive, and it's clear that MultichainFinance's commitment to delivering value to its investors sets them apart from the rest.</p>
               <span className="left-quote">
                 <ImQuotesRight />
               </span>

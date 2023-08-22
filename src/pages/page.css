@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../../public/untitled-design.png);
+    background-image: url(../../public/forex2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -652,6 +652,10 @@
     }
     .form {
         width: 100%;
+    }
+    .bitcoin-card-text-container h2 {
+        font-size: 1.5rem;
+        text-align: left;
     }
    }
 

@@ -34,7 +34,7 @@ const About = () => {
                     read more
             </button>
         </div>
-              <div className="about-img-container">
+              <div className="about-img-container" data-aos="fade-up">
                   <Swiper
                         spaceBetween={60}
                         effect={"fade"}

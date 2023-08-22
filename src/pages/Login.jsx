@@ -12,7 +12,7 @@ const Login = ({route}) => {
   const [password,setPassword] = useState()
   const [loader, setLoader] = useState(false)
   const [check,setChecked] =  useState(false)
-  // console.log(check)
+  console.log(check)
   // useEffect(()=>{
   //   setLoader(true)
   //   const token = localStorage.getItem('token')
@@ -113,11 +113,11 @@ const Login = ({route}) => {
                     login()
                     }}>
           <div class="logo_container" onClick={()=>navigate('/')}>
-            <img src="/20230607_222354.png" alt="" />
+            {/* <img src="/20230607_222354.png" alt="" /> */}
           </div>
           <div class="title_container">
             <p class="titles">Login to your Account</p>
-            <span class="subtitle">Welcome to passive income invest, login and enjoy the best investment experience.</span>
+            <span class="subtitle">Welcome to Multichainfinance, login and enjoy the best investment experience.</span>
           </div>
           <br/>
           <div class="input_containers">

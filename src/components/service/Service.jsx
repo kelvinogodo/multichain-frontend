@@ -6,7 +6,7 @@ const Service = () => {
       <section className='service-section'>
           <div className="service-card-container">
               <div className="gold-card" data-aos="fade-up">
-              <img src="/pexels-michael-steinberg-321463.jpg" alt="" />
+              <img src="/pexels-michael-steinberg-386318.jpg" alt="" />
               <div className="gold-card-text">
                   <small>09/07/17</small>
                   <h3>gold stock investment</h3>
@@ -15,7 +15,7 @@ const Service = () => {
               </div>
               </div>
               <div className="gold-card" data-aos="fade-up">
-              <img src="/pexels-mathias-reding-7108780.jpg" alt="" />
+              <img src="/model-house-money-real-estate-investment-model-house-money-real-estate-investment-concept-131286610.jpg" alt="" />
               <div className="gold-card-text">
                   <small>01/09/16</small>
                   <h3>real estate and housing</h3>
@@ -24,7 +24,7 @@ const Service = () => {
               </div>
               </div>
               <div className="gold-card" data-aos="fade-up">
-              <img src="/Invest4Land-Agriculture-Real-Estate-Investment-Investing-Farmland-Farming-Agrobusiness-Investor-Property-Managed-Farmland-Turkey-Spain-Almond-Walnut0.jpg" alt="" />
+              <img src="/what-is-agrotech.webp" alt="" />
               <div className="gold-card-text">
                   <small>03/03/17</small>
                   <h3>agro-tech investment</h3>

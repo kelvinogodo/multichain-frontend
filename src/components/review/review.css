@@ -18,7 +18,7 @@
 
 .review-card {
     width: 30%;
-    height: 350px;
+    padding: 20px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
 }
 .investor-review-container{
     color: rgb(77, 77, 77);
-    width: 80%;
+    width: 95%;
     display: flex;
     flex-direction: column;
 }
