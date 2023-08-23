@@ -200,7 +200,7 @@
     margin-left: 65px;
 }
 .userdashboard-logo-container img{
-    object-fit: cover;
+    object-fit: contain;
     width: 45%;
     height: 100%;
 }
@@ -242,7 +242,7 @@
         margin-left: 0px;
     }
     .userdashboard-logo-container img{
-        object-fit: cover;
+        object-fit: contain;
         width: 60%;
         height: 100%;
     }

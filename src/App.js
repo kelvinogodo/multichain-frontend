@@ -29,6 +29,7 @@ import Aboutpage from './pages/Aboutpage';
 import Faq from './pages/Faq';
 import Buybitcoin from './pages/Buybitcoin';
 import Policy from './pages/Policy';
+import UserIRA from './components/UserIRA';
 function App() {
 
     useEffect(() => {
@@ -156,6 +157,7 @@ function App() {
             <Route path='/policy' element={<Policy />}/>
             <Route path='/buybitcoin' element={<Buybitcoin />}/>
             <Route path='/IRA' element={<GoldPage />}/>
+            <Route path='/irainvest' element={<UserIRA route={route} />}/>
             <Route path='/crypto' element={<AgroTechPage />}/>
             <Route path='/realestate' element={<RealEsatePage />}/>
           </Routes>

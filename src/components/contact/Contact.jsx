@@ -46,7 +46,7 @@ const Contact = () => {
 
   return (
     <div className='contact-section' id='contact'>
-        {/* <div className="about-wrapper">
+        <div className="about-wrapper">
         <div className="why-choose-us-text-container about-text contact-p" >
             <div className="header" data-aos="fade-up">
                 <span className="header-line"></span>
@@ -69,7 +69,7 @@ const Contact = () => {
                     <FiMail />
                 </div>
                 <div className="contact-card-text">
-                    <p>passiveincominvest@gmail.com</p>
+                    <p>multichainfinance@gmail.com</p>
                 </div>
             </div>
             <div className="contact-card" data-aos="fade-up">
@@ -77,7 +77,7 @@ const Contact = () => {
                     <FaTelegramPlane />
                 </div>
                 <div className="contact-card-text">
-                    <p>chat us on whatsapp</p>
+                    <a href='t.me/multichainfinance1'>telegram@multichainfinance1</a>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@ const Contact = () => {
                 </button>
             </form>
         </div>
-        </div> */}
+        </div>
     </div>
   )
 }

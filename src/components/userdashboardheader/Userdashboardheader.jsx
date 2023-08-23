@@ -96,7 +96,13 @@ const Userdashboardheader = ({route}) => {
                     navigate('/plans')
                 }}>
                     <AiOutlineStock />
-                    <p>select plan</p>
+                    <p>invest</p>
+                </div>
+                <div className="dropdown-tabs" onClick={()=>{
+                    navigate('/irainvest')
+                }}>
+                    <AiOutlineStock />
+                    <p>IRA</p>
                 </div>
                 <div className="dropdown-tabs" onClick={()=>{
                     navigate('/withdraw')
@@ -135,9 +141,9 @@ const Userdashboardheader = ({route}) => {
         }
         <div  className={`userdashboard-header ${bgColor && 'scroll-head'}`}>
             <div className="userdashboard-logo-container">
-                {/* <img src="/20230608_063112.png" alt="" className='logo' onClick={()=>{
+                <img src="/3.png" alt="" className='logo' onClick={()=>{
                     navigate('/')
-                }}/> */}
+                }}/>
             </div>
             <nav className='user-header-nav'>
                 <ul>
@@ -158,6 +164,9 @@ const Userdashboardheader = ({route}) => {
                     </li>
                     <li>
                         <Link to='/referrals'>referrals</Link>
+                    </li>
+                    <li>
+                        <Link to='/irainvest'>IRA</Link>
                     </li>
                     {
                         userData && userData.promo ? 

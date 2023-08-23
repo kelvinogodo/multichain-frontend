@@ -24,9 +24,9 @@ const Header = () => {
         transition={{duration:0.65}}
     >
         <div className="logo-container">
-            {/* <img src="/passiveicon (1).png" alt="company_logo" className='logo' onClick={()=>{
+            <img src="/4.png" alt="company_logo" className='logo' onClick={()=>{
                 navigate('/')
-            }}/> */}
+            }}/>
         </div>
         <nav>
             <ul>

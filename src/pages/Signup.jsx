@@ -392,9 +392,9 @@ const Signup = ({route}) => {
                       e.preventDefault()
                       Signup()
         }} >
-          {/* <img src="/20230607_210241.png" alt="" className="signup-logo" onClick={()=>{
+          <img src="/5.png" alt="" className="signup-logo" onClick={()=>{
               navigate('/')
-            }}/> */}
+            }}/>
               <span class="subtitle">Get started with Multichainfinance, just create an account and enjoy the experience.</span>
               <div class="input_containers">
                 <label class="input_labels" for="email_field">Firstname</label>
