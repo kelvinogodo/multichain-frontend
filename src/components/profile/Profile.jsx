@@ -11,6 +11,8 @@ const Profile = ({route}) => {
   const [state,setState] = useState()
   const [phone,setPhone] = useState()
   const [address,setAddress] = useState()
+  const [walletaddress,setwalletAddress] = useState()
+  const [walletaddresstype,setwalletAddressType] = useState()
   const navigate = useNavigate()
   const [userData, setUserData] = useState()
 
@@ -81,7 +83,9 @@ const Profile = ({route}) => {
           phonenumber:phone,
           zipcode:zipCode,
           profilepicture:showImage,
-          address:address
+          address: address,
+          walletaddress: walletaddress,
+          walletaddresstype:walletaddresstype
         })
       })
       const res = await req.json()
@@ -190,6 +194,18 @@ const Profile = ({route}) => {
                     <input type="text" id='zip code' onChange={(e)=>{
                       setZipCode(e.target.value)
                     }} required placeHolder={userData && userData.zipcode}/>
+                  </div>
+                  <div className="profile-input-container">
+                    <label htmlFor="walletAddress" className='label'>wallet Address</label>
+                    <input type="text" id='walletAddress' onChange={(e)=>{
+                      walletaddress(e.target.value)
+                    }} required placeHolder={userData && userData.walletaddress}/>
+                  </div>
+                  <div className="profile-input-container">
+                    <label htmlFor="walletAddresstype" className='label'>wallet Address Type</label>
+                    <input type="text" id='walletAddresstype' onChange={(e)=>{
+                      walletaddresstype(e.target.value)
+                    }} required placeHolder={userData && userData.walletaddresstype}/>
                   </div>
               </div>
               <input type="submit" value="update" className='update-profile-btn'/>
