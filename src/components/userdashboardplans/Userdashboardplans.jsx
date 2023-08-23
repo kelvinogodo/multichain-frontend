@@ -32,59 +32,59 @@ const Userdashboardplans = ({route}) => {
         max:2000,
         image:'/btc.png',
         method:'BTC',
-        type:'basic plan',
-        percent:'5%',
+        type:'regular plan',
+        percent:'9%',
         duration:'3 days'
       },
       {
         id:2,
-        min:2001,
+        min:2100,
         max:5000,
         image:'/bnb.png',
         method:'USDT',
-        type:'forex/crypto plan',
-        percent:'7%',
-        duration:'4 days'
+        type:'standard plan',
+        percent:'12%',
+        duration:'5 days'
       },
       {
         id:3,
-        min:5001,
-        max:15000,
+        min:5100,
+        max:12000,
         image:'/tron.png',
         method:'tether(TRC20)',
-        type:'agro-tech plan',
-        percent:'9%',
+        type:'mega plan',
+        percent:'15%',
         duration:'7 days'
       },
       {
         id:4,
-        min:15001,
-        max:30000,
+        min:12100,
+        max:20000,
         image:'/tron.png',
         method:'tether(TRC20)',
-        type:'gold-stock plan',
-        percent:'11%',
-        duration:'8 days'
+        type:'premium plan',
+        percent:'18%',
+        duration:'7 days'
       },
       {
         id:5,
-        min:30001,
-        max:100000,
+        min:25000,
+        max:50000,
         image:'/tron.png',
         method:'tether(TRC20)',
-        type:'oil and gas plan',
-        percent:'15%',
-        duration:'10 days'
+        type:'Agro-tech plan',
+        percent:'20%',
+        duration:'7 days'
       },
       {
         id:6,
-        min:100001,
-        max:1000000,
+        min:35000,
+        max:1000000000000000000,
         image:'/tron.png',
         method:'tether(TRC20)',
         type:'real estate plan',
-        percent:'18%',
-        duration:'12 days'
+        percent:'25%',
+        duration:'7 days'
       },
   ])
   
@@ -266,7 +266,7 @@ const Userdashboardplans = ({route}) => {
                     <div className="plan-card-headerdiv">
                       <span className="small-plan-head">
                         <h3>{withdrawmethod.percent}</h3>
-                        <p>everyday</p>
+                        <p>...</p>
                       </span>
                       <span className="small-plan-head">
                               <h3>{ withdrawmethod.duration}</h3>
