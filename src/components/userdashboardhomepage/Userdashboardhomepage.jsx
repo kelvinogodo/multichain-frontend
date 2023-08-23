@@ -87,9 +87,9 @@ const Userdashboardhomepage = ({route}) => {
                 </div>
                 <div className="overview-card">
                 <div className="amount-header">
-                        <h2>Total Withdraw</h2>
+                        <h2>latest normal investment</h2>
                         <div className="amount-holder">
-                            <h3>${userData ? userData.totalwithdraw : ''}.00 USD </h3>
+                            <h3>${userData && userData.invest.length !== 0 ? userData.invest[userData.invest.length - 1].amount : 0}.00 USD</h3>
                             <span className="red">
                                 <p>1.93%</p>
                                 <IoIosArrowRoundDown />
@@ -114,8 +114,8 @@ const Userdashboardhomepage = ({route}) => {
                         </div>
                     </div>
                     <div className="amount-pouches">
-                        <h2>from deposits</h2>
-                        <h3>${userData ? userData.totaldeposit : ''}.00 USD</h3>
+                        <h2>total withdrawals</h2>
+                        <h3>${userData ? userData.totalwithdraw : ''}.00 USD </h3>
                     </div>
                     <div className="amount-pouches">
                         <h2>withdrawable profit after duration</h2>
