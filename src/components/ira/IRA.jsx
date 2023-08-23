@@ -11,7 +11,7 @@ const IRA = () => {
         max:'40,000',
         image:'/btc.png',
         method:'BTC',
-        type:'regular plan',
+        type:'IRA regular',
         percent:'45%',
         duration:'3 months'
       },
@@ -21,7 +21,7 @@ const IRA = () => {
         max:'75,000',
         image:'/bnb.png',
         method:'USDT',
-        type:'standard plan',
+        type:'IRA standard',
         percent:'70',
         duration:'6 months'
       },
@@ -31,7 +31,7 @@ const IRA = () => {
         max:'1,000,000',
         image:'/tron.png',
         method:'tether(TRC20)',
-        type:'mega plan',
+        type:'IRA mega',
         percent:'90',
         duration:'yearly'
       }
