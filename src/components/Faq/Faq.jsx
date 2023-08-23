@@ -7,8 +7,8 @@ const Faq = () => {
         {
             id:1,
             active:true,
-            question:'What is Multichainfinance?',
-            answer:"Multichainfinance is an online platform that maximizes the slight differences in prices of global forex exchange rate and investment in gold stock, real estate, crude oil and agro-tech to inturn satisfy her clients.",
+            question:'What is IRA and how does it work?',
+            answer:"An individual retirement account (IRA) allows you to save and invest money for your retirement with tax advantages. A Roth IRA offers tax-free growth potential on after-tax contributions. For a traditional IRA, your investments have the opportunity to grow tax-deferred with before-tax and after-tax contributions.Each year the IRS sets a maximum amount that you can contribute across all of your IRAs, including those outside of Multichainfinance. For 2023, the contribution limit is $6,500 for people under age 50, and $7,500 for people age 50 and over. You can either make a new IRA contribution that counts towards your annual limit or rollover funds from another retirement account to reinvest.",
         },
         {
             id:2,
