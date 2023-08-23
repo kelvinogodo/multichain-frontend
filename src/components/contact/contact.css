@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 50px 0px 20px 0px;
+    flex-direction: column;
 }
 #contact{
     width: 100%;
@@ -60,8 +61,12 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 }
-.contact-form-container a{
-    color: var(--color-dark);
+.contact-svg-container{
+    width: fit-content;
+    margin-top: 20px;
+}
+.contact-svg-container a{
+    color: var(--facebook-variant);
     font-size: 2rem;
     margin:10px;
 

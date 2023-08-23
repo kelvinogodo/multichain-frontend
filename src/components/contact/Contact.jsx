@@ -55,12 +55,13 @@ const Contact = () => {
             <h1 data-aos="fade-up">get in touch</h1>
             <p data-aos="fade-up">
                 Any question? Reach out to us and we’ll get back to you shortly.
-            </p>
+                  </p>
+            <div className="contact-svg-container" data-aos="fade-up">
+                <a href="" target='blank' data-aos="fade-up"><FaTelegram /></a>
+                <a href="" target='blank' data-aos="fade-up"><ImMail /></a>
+            </div>
         </div>
         <div className="contact-form-container">
-        <a href="" target='blank' data-aos="fade-up"><FaTelegram /></a>
-            <a href="" target='blank' data-aos="fade-up"><ImMail /></a>
-            {/* <a href="" target='blank' data-aos="fade-up"><FaTelegramPlane /></a>   */}
         </div>
         </div>
     </div>
