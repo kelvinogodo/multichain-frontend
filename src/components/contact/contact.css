@@ -5,7 +5,6 @@
     padding: 50px 0px 20px 0px;
 }
 #contact{
-    background-color: var(--secondary-color);
     width: 100%;
 }
 .contact-card{
@@ -47,10 +46,10 @@
     justify-content: center;
 }
 .contact-p h1{
-    color: var(--mild-color);
+    color: #565656;
 }
 .contact-p p{
-    color: #b7b7b7;
+    color: #565656;
 }
 .contact-form{
     width: 90%;
@@ -59,10 +58,14 @@
 width: 45%;
 display: flex;
 align-items: center;
-justify-content: center;
-align-self: flex-start;
+justify-content: flex-start;
 }
+.contact-form-container a{
+    color: var(--color-dark);
+    font-size: 2rem;
+    margin:10px;
 
+}
 @media screen and (max-width: 767px){
     .contact-form-container{
         width: 100% !important;

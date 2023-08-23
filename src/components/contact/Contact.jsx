@@ -1,7 +1,7 @@
 import React from 'react'
 import './contact.css'
-import {BsFillWalletFill} from 'react-icons/bs'
-import {FaPhone,FaTelegramPlane} from 'react-icons/fa'
+import {ImMail} from 'react-icons/im'
+import {FaPhone,FaTelegramPlane,FaTelegram} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import {FiMail} from 'react-icons/fi'
 import { useState ,useRef} from 'react'
@@ -56,52 +56,11 @@ const Contact = () => {
             <p data-aos="fade-up">
                 Any question? Reach out to us and we’ll get back to you shortly.
             </p>
-            <div className="contact-card" data-aos="fade-up">
-                <div className="ball contact-ball">
-                    <FaPhone />
-                </div>
-                <div className="contact-card-text">
-                    <p>+14172216175</p>
-                </div>
-            </div>
-            <div className="contact-card" data-aos="fade-up">
-                <div className="ball contact-ball">
-                    <FiMail />
-                </div>
-                <div className="contact-card-text">
-                    <p>multichainfinance@gmail.com</p>
-                </div>
-            </div>
-            <div className="contact-card" data-aos="fade-up">
-                <div className="ball contact-ball">
-                    <FaTelegramPlane />
-                </div>
-                <div className="contact-card-text">
-                    <a href='t.me/multichainfinance1'>telegram@multichainfinance1</a>
-                </div>
-            </div>
         </div>
         <div className="contact-form-container">
-            <form className="contact-form"  ref={form} onSubmit={sendEmail}>
-                <div class="input-group" data-aos="fade-up">
-                    <input required="" type="text" name="name" autocomplete="off" className="input" />
-                    <label className="user-label">name</label>
-                </div>
-                <div class="input-group" data-aos="fade-up">
-                    <input required="" type="text" name="email" autocomplete="off" className="input" />
-                    <label className="user-label">email</label>
-                </div>
-                <div class="input-group" data-aos="fade-up">
-                    <input required="" type="text" name="message" autocomplete="off" className="input" />
-                    <label className="user-label">message</label>
-                </div>
-                <input type="text" style={{display:'none'
-                }} name='subject' value={'contact message from your site'}/>   
-                <input type="text" style={{display:'none'
-                }} name='reply_to' value={'passiveincominvest@gmail.com'}/>   
-                <button className='launch-btn sub-btn' data-aos="fade-up" type='submit'> submit
-                </button>
-            </form>
+        <a href="" target='blank' data-aos="fade-up"><FaTelegram /></a>
+            <a href="" target='blank' data-aos="fade-up"><ImMail /></a>
+            {/* <a href="" target='blank' data-aos="fade-up"><FaTelegramPlane /></a>   */}
         </div>
         </div>
     </div>
