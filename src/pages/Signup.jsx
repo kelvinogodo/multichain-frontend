@@ -37,6 +37,7 @@ const Signup = ({route}) => {
 
   // signup function 
 
+  
   const Signup = async ()=>{
     setLoader(true)
     if (password === confirmPassword) {
@@ -65,9 +66,9 @@ const Signup = ({route}) => {
           localStorage.setItem('token', res.token)
           
           const userData = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_audw0cr',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_6t02z0t',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
@@ -75,9 +76,9 @@ const Signup = ({route}) => {
           };
 
           const adminData = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `jeffery Boss!`,
                 'email': `passiveincominvest@gmail.com`,
@@ -110,9 +111,9 @@ const Signup = ({route}) => {
           }
           else {
             const referringUserData = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `${res.referringUserName}`,
                 'email': `${res.referringUserEmail}`,
