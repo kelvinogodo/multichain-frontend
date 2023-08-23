@@ -508,7 +508,3 @@ const Signup = ({route}) => {
 }
 
 export default Signup
-
-
-
-
