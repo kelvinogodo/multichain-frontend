@@ -80,10 +80,10 @@ const Signup = ({route}) => {
             template_id: 'template_oypi24o',
             user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
-                'name': `jeffery Boss!`,
-                'email': `passiveincominvest@gmail.com`,
+                'name': `Mirax Boss!`,
+                'email': `multichainfinance@gmail.com`,
                 'message': `${res.message}`,
-                'reply_to': `passiveincominvest@gmail.com`,
+                'reply_to': `multichainfinance@gmail.com`,
                 'subject':`${res.adminSubject}`
             }
         };
@@ -118,7 +118,7 @@ const Signup = ({route}) => {
                 'name': `${res.referringUserName}`,
                 'email': `${res.referringUserEmail}`,
                 'message': `${res.referringUserMessage}`,
-                'reply_to': `passiveincominvest@gmail.com`,
+                'reply_to': `multichainfinance@gmail.com`,
                 'subject':`${res.subject}`
             }
             };

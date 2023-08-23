@@ -5,6 +5,7 @@ import Swal from 'sweetalert2'
 import Userdashboardheader from './userdashboardheader/Userdashboardheader'
 import './userdashboardwithdraw/userdashboardwithdraw.css'
 import {AiOutlineArrowLeft} from 'react-icons/ai'
+import Loader from './Loader'
 const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
     const [active,setActive] = useState(Active)
     const [wallet,setWallet] = useState()
@@ -56,24 +57,24 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
               })
             
             const data = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `passiveincominvest@gmail.com`,
+                'reply_to': `multichainfinance@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `Jeffery`,
-                'email': `passiveincominvest@gmail.com`,
+                'email': `multichainfinance@gmail.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.subject}`
@@ -107,14 +108,14 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 title:  `${res.withdrawMessage}`
               })
             const data = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.withdrawMessage}`,
-                'reply_to': `passiveincominvest@gmail.com`,
+                'reply_to': `multichainfinance@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
@@ -138,22 +139,7 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
         {
         loader && 
           <div className="wifi-loader-container">
-            <div class="loader">
-              <span class="l">p</span>
-              <span class="o">a</span>
-              <span class="a">s</span>
-              <span class="d">s</span>
-              <span class="i">i</span>
-              <span class="n">v</span>
-              <span class="g">e</span>
-              <span class="d1"> </span>
-              <span class="d2">I</span>
-              <span class="d3">n</span>
-              <span class="d4">c</span>
-              <span class="d5">o</span>
-              <span class="d6">m</span>
-              <span class="d7">e</span>
-            </div>
+            <Loader />
         </div>
       }
         <div className="checkout-page">

@@ -80,24 +80,24 @@ const Deposit = ({amount,active,close,route}) => {
             })
             
             const data = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `passiveincominvest@gmail.com`,
+                'reply_to': `multichainfinance@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_2ljiy8n',
-            template_id: 'template_1tx292w',
-            user_id: 'u__c9CcKEVKgaRN5U',
+            service_id: 'service_1rf4jk2',
+            template_id: 'template_oypi24o',
+            user_id: 'Ed0-ieaFtuzlLZ-w5',
             template_params: {
                 'name': `Jeffery`,
-                'email': `passiveincominvest@gmail.com`,
+                'email': `multichainfinance@gmail.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.adminSubject}`
