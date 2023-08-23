@@ -57,8 +57,8 @@ const Contact = () => {
                 Any question? Reach out to us and we’ll get back to you shortly.
                   </p>
             <div className="contact-svg-container" data-aos="fade-up">
-                <a href="" target='blank' data-aos="fade-up"><FaTelegram /></a>
-                <a href="" target='blank' data-aos="fade-up"><ImMail /></a>
+                <a href="http://t.me/multichainfinance1" target='blank' data-aos="fade-up"><FaTelegram /></a>
+                <a href="mailto:multichainfinance@gmail.com" target='blank' data-aos="fade-up"><ImMail /></a>
             </div>
         </div>
         <div className="contact-form-container">
