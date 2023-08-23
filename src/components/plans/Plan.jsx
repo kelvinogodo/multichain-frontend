@@ -33,7 +33,7 @@ const Plan = () => {
         method:'tether(TRC20)',
         type:'mega plan',
         percent:'15',
-        duration:'7 day(s)'
+        duration:'7 days'
       },
       {
         id:4,

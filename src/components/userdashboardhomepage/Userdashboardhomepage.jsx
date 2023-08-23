@@ -66,9 +66,9 @@ const Userdashboardhomepage = ({route}) => {
             <div className="overview-container">
                 <div className="overview-card">
                     <div className="amount-header">
-                        <h2>Total Deposit</h2>
+                        <h2>Invested IRA</h2>
                         <div className="amount-holder">
-                            <h3>$ {userData && userData.totaldeposit !== undefined ? userData.totaldeposit : ''}.00 USD</h3>
+                            <h3>$ {userData && userData.IRAtotal !== undefined ? userData.IRAtotal : ''}.00 USD</h3>
                             <span className="arrow-p">
                                 <p>1.93%</p>
                                 <IoIosArrowRoundUp />
@@ -80,8 +80,8 @@ const Userdashboardhomepage = ({route}) => {
                         <h3>${userData && userData.deposit.length !== 0 ? userData.deposit[userData.deposit.length - 1].amount : 0}.00 USD</h3>
                     </div>
                     <div className="amount-pouches">
-                        <h2>invested</h2>
-                        <h3>$ {userData && userData.invest.length !== 0 ? userData.invest[userData.invest.length - 1].amount : 0}.00 USD</h3>
+                        <h2>current invested IRA</h2>
+                        <h3>$ {userData && userData.IRAinvest.length !== 0 ? userData.IRAinvest[userData.IRAinvest.length - 1].amount : 0}.00 USD</h3>
                     </div>
                     <img src="/bar.png" alt="" className="bar"/>
                 </div>
@@ -111,7 +111,6 @@ const Userdashboardhomepage = ({route}) => {
                         <h2>Balance in Account</h2>
                         <div className="amount-holder">
                             <h3>${userData ? userData.funded : ''}.00 USD </h3>
-                            
                         </div>
                     </div>
                     <div className="amount-pouches">

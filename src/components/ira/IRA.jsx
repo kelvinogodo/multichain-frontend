@@ -43,7 +43,7 @@ const IRA = () => {
                       <span className="header-line"></span>
                       <h2>Eclusive IRA plans</h2>
                   </div>
-                  <h1 data-aos="fade-up">choose an IRA investment plan</h1>
+                  <h1 data-aos="fade-up">select an IRA investment plan</h1>
                   <p data-aos="fade-up">choose an IRA investment plan that suits your budget</p>
               </div>
               <div className="plan-card-container">
