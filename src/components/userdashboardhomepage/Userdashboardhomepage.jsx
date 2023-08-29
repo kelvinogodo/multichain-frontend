@@ -77,7 +77,7 @@ const Userdashboardhomepage = ({route}) => {
                     </div>
                     <div className="amount-pouches">
                         <h2>IRA earnings</h2>
-                        <h3>${userData.IRAearning && userData.IRAearning !== undefined ? userData.IRAearning : ''}.00 USD</h3>
+                        <h3>${userData && userData.IRAearning !== undefined ? userData.IRAearning : ''}.00 USD</h3>
                     </div>
                     <div className="amount-pouches">
                         <h2>current invested IRA</h2>
