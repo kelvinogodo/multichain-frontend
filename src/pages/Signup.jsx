@@ -395,7 +395,7 @@ const Signup = ({route}) => {
           <img src="/5.png" alt="" className="signup-logo" onClick={()=>{
               navigate('/')
             }}/>
-              <span class="subtitle">Get started with Multichainfinance, just create an account and enjoy the experience.</span>
+              <span class="subtitle">Get started with Multichainfinance, just create an account and enjoy the experience. Get started to get $10 bonus</span>
               <div class="input_containers">
                 <label class="input_labels" for="email_field">Firstname</label>
                 <span className="icont">
