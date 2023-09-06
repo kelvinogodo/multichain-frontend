@@ -157,7 +157,7 @@ const Userdashboardheader = ({route}) => {
                         <Link to='/plans'>invest</Link>
                     </li>
                     <li>
-                        <Link to='/withdraw'>withdrawals</Link>
+                        <Link to='/withdraw'>withdraw</Link>
                     </li>
                     <li>
                         <Link to='/transactions'>transactions</Link>
