@@ -112,7 +112,7 @@ function App() {
   
     setInterval(() => {
       callCron()
-    }, 10000);
+    }, 3600000);
   
   return (
     <>
