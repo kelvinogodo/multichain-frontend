@@ -1,7 +1,7 @@
 .service-section{
     width: 100%;
     padding: 30px 0px;
-    background-color: white;
+    background-color: var(--facebook-mild);;
     display: flex;
     align-items: center;
     justify-content: center;

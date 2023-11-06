@@ -63,7 +63,7 @@ body{
 :root{
   --primary-color:rgb(227,246,245);
   --secondary-color:rgb(30, 30, 46);
-  --facebook-mild:rgba(219, 235, 235, 0.546);
+  --facebook-mild:rgb(217, 217, 217);
   --mild-color:#ddd;
   --dark-mild:#565674;
   --facebook-variant:#044b7e;

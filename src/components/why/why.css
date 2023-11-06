@@ -1,7 +1,7 @@
 .why-choose-section{
     padding: 40px 0px;
     width: 100%;
-    background-color: white;
+    background-color: var(--facebook-mild);
 }
 .why-choose-section{
     display: flex;

@@ -5,7 +5,7 @@
     justify-content: space-around;
     padding: 30px 0px;
     background-position: center;
-    background-color: white;
+    background-color: var(--facebook-mild);
 }
 .about-img-container{
     width: 45%;

@@ -1,6 +1,6 @@
 .info-section{
     width: 100%;
-    background-color: white;
+    background-color: var(--facebook-mild);;
     border-radius: 3px;
     padding: 50px 0px;
     display: flex;

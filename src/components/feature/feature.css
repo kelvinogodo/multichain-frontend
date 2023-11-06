@@ -1,5 +1,5 @@
 .feature-section{
-    background-color: white;
+    background-color: var(--facebook-mild);;
     width: 100%;
     padding: 30px 0px;
 }
