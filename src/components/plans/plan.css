@@ -4,7 +4,8 @@
     justify-content: center;
     padding-top: 10px;
     flex-direction: column;
-    background-color: var(--facebook-mild);;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1840' height='3500' preserveAspectRatio='none' viewBox='0 0 1840 3500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1071%26quot%3b)' fill='none'%3e%3crect width='1840' height='3500' x='0' y='0' fill='rgba(10%2c 97%2c 188%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c1389.137C271.299%2c1412.177%2c555.476%2c1367.835%2c781.257%2c1215.66C1004.936%2c1064.902%2c1082.437%2c787.793%2c1228.587%2c561.077C1403.544%2c289.675%2c1784.44%2c69.362%2c1724.783%2c-247.986C1664.4%2c-569.195%2c1198.92%2c-607.794%2c965.793%2c-836.864C759.348%2c-1039.716%2c717.652%2c-1417.313%2c442.713%2c-1507.742C168.123%2c-1598.056%2c-99.022%2c-1363.151%2c-375.236%2c-1277.935C-646.838%2c-1194.142%2c-942.805%2c-1185.958%2c-1166.923%2c-1011.144C-1417.461%2c-815.722%2c-1657.88%2c-559.362%2c-1700.2%2c-244.452C-1742.44%2c69.867%2c-1578.169%2c380.075%2c-1387.992%2c633.874C-1219.671%2c858.505%2c-946.952%2c955.668%2c-700.392%2c1089.831C-472.771%2c1213.689%2c-258.208%2c1367.209%2c0%2c1389.137' fill='%23084d95'%3e%3c/path%3e%3cpath d='M1840 4540.53C2036.709 4551.84 2218.781 4453.68 2387.625 4352.122 2560.669 4248.037 2741.251 4133.572 2823.323 3949.068 2905.1059999999998 3765.213 2889.5730000000003 3549.86 2829.987 3357.661 2775.369 3181.485 2640.303 3049.206 2505.361 2923.4610000000002 2382.498 2808.9719999999998 2245.351 2715.39 2085.497 2663.9139999999998 1922.496 2611.425 1750.43 2588.196 1583.554 2626.625 1410.417 2666.496 1239.308 2744.6549999999997 1129.243 2884.125 1021.155 3021.091 1020.051 3205.898 990.686 3377.887 960.485 3554.774 892.384 3735.99 955.094 3904.123 1019.296 4076.257 1182.252 4184.126 1331.403 4291.392 1487.8319999999999 4403.892 1647.636 4529.47 1840 4540.53' fill='%230c75e4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1071'%3e%3crect width='1840' height='3500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
     position: relative;
 }
 .plan-card-container{
@@ -23,11 +24,10 @@
   border-radius: 12px;
   padding: 1.6rem;
   color: #fff;
-  box-shadow:0px 3px 40px #e5e9f3;
   margin: 15px 0px;
+  background-color: var(--dark);
 }
 .pack-container:hover{
-  box-shadow: 0px 0px 15px #ddd;
   transition: all .2s ease-in-out;
   cursor: pointer;
 }
@@ -38,19 +38,19 @@
   margin-bottom: 2rem;
   overflow: hidden;
   border-radius: 0;
-  border-bottom: 1px solid var(--dark);
+  border-bottom: 1px solid var(--primary-color);
   background: transparent;
   padding-bottom: 1rem;
   text-align: center;
 }
 
-.title {
+.pack-header .title {
   display: block;
   font-family: sans-serif;
   font-size: 0.875rem;
   line-height: 1.25rem;
   text-transform: uppercase;
-  color: var(--dark)
+  color: var(--primary-color);
 }
 
 .price-container {
@@ -62,21 +62,21 @@
   font-family: sans-serif;
   font-size: 4.5rem;
   line-height: 1;
-  color: var(--dark);
+  color: var(--primary-color);
 }
 
 .price-container span:first-child {
   margin-top: 10px;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  color: var(--dark);
+  color: var(var(--primary-color));
 }
 
 .price-container span:last-child {
   align-self: flex-end;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  color: var(--dark);
+  color: var(var(--primary-color));
 }
 
 .lists {
@@ -109,12 +109,13 @@
 .list span svg {
   height: 12px;
   width: 12px;
-  color: var(--dark);
+  color: var(--primary-color);
 }
 
 .list p {
   display: block;
   font-family: sans-serif;
+  color: var(--primary-color);
 }
 
 .buttons-container {

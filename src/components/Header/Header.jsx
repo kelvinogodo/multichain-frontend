@@ -24,7 +24,7 @@ const Header = () => {
         transition={{duration:0.65}}
     >
         <div className="logo-container">
-            <img src="/4.png" alt="company_logo" className='logo' onClick={()=>{
+            <img src="/4.png" alt="company_logo" className={`logo ${bgColor && 'scroll'}`}onClick={()=>{
                 navigate('/')
             }}/>
         </div>

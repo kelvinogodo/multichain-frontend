@@ -104,7 +104,7 @@ function App() {
             })
     }, 600000);
   
-    const route = 'https://uninterested-suit-frog.cyclic.cloud'
+    const route = 'http://localhost:5000'
 
     const callCron = async () => {
       await fetch(`${route}/api/cron`)

@@ -1,90 +1,78 @@
-.landpage{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
-}
-.Swiper{
+.landpage {
   display: flex;
   align-items: center;
-  align-items: center;
   flex-direction: column;
-}
-.swipe::after{
-  content: '';
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.466);
-  position: absolute;
+  background-color: rgba(0, 0, 0, 0.59);
+  background-position: bottom;
+  position: relative;
+  padding-bottom: 100px;
 }
-.swiper-slide1{
-  background-image: url(../../../public/Which-Type-of-Investment-Has-the-Highest-Risk.jpg);
-}
-.swiper-slide2{
-  background-image: url(../../../public/real2.png);
-}
-.swiper-slide3{
-  background-image: url(../../../public/istockphoto-1133598770-170667a.jpg);
-}
-.swiper-slide1,.swiper-slide2,.swiper-slide3{
+.info-overlay {
   width: 100%;
+  height: 100vh;
+  background-image: url(../../../public/How-Citizenship-by-Investment-Unlocks-the-Potential-of-Cryptocurrency.webp);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
-  object-fit: cover; 
+  object-fit: cover;
+  position: fixed;
+  z-index: -1;
+  top: 0;
 }
-.swiper-slide3{
-  background-position: bottom;
+
+.landpage-content-wrapper {
+  position: relative;
 }
-.landpage-content-wrapper{
-  position: relative; 
-  z-index: 2;
-  backdrop-filter: blur(3px);
-}
-.bg-svg{
+
+.bg-svg {
   position: absolute;
   bottom: 0px;
   right: 0px;
   width: 100%;
 }
-.emphasy{
+
+.emphasy {
   font-size: 2.5rem;
   color: var(--color-variant);
   display: block;
   text-transform: capitalize;
-  font-family:'Poppins';
-}
-.landpage-content-wrapper{
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
-}
-.landpage-text-container{
-    width: 50%;
-    align-self: flex-start;
-    text-align: left;
-    padding-left: 20px;
-}
-.landpage-text-container h1{
-    color:var(--primary-color);
-    font-size: 2.2rem;
+  font-family: 'Poppins';
 }
 
-.landpage-text-container p{
-    color: rgb(238, 238, 238);
-    margin-top: 20px;
-    backdrop-filter: blur(2px);
+.landpage-content-wrapper {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 70px;
+  margin: auto;
 }
-.landpage-img-container{
-    width: 45%;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.landpage-text-container {
+  width: 50%;
+  align-self: flex-start;
+  text-align: left;
+  padding-left: 20px;
 }
+
+.landpage-text-container h1 {
+  color: var(--primary-color);
+}
+
+.landpage-text-container p {
+  color: var(--mild-color);
+  margin-top: 20px;
+}
+
+.landpage-img-container {
+  width: 45%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .deactivate-card {
   overflow: hidden;
   position: relative;
@@ -174,71 +162,88 @@
   border: 1px solid #D1D5DB;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
-@media (max-width: 990px) and (min-width: 768px){
 
-  .landpage{
-      justify-content: center;
-      background-position: center;
-      background-color: rgba(0, 0, 0, 0.686);
+@media (max-width: 990px) and (min-width: 768px) {
+
+  .landpage {
+    justify-content: center;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.686);
   }
-    .landpage-content-wrapper{
-      flex-direction: column-reverse;
-      justify-content: center;
-      padding: 20px 0px;
-    }
-    .landpage-text-container{
-      text-align: center;
-      width: 95%;
-      align-self: center;
-      padding-left: 0px;
-      text-align: left;
-    }
-    
-  .landpage-img-container{
+
+  .landpage-content-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 20px 0px;
+  }
+
+  .landpage-text-container {
+    text-align: center;
+    width: 95%;
+    align-self: center;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .launch-btn {
+    margin: 30px 0px;
+    align-self: flex-start;
+  }
+
+  .landpage-img-container {
     margin-bottom: 50px;
     width: 90%;
   }
-  .floating-container-img3{
+
+  .floating-container-img3 {
     right: 10px;
   }
 }
-@media screen and (max-width: 767px){
-  .landpage{
+
+@media screen and (max-width: 767px) {
+  .landpage {
     justify-content: center;
     background-position: center;
     background-color: rgba(0, 0, 0, 0.692);
-}
-  .landpage-content-wrapper{
+  }
+
+  .landpage-content-wrapper {
     flex-direction: column-reverse;
     justify-content: center;
     width: 100%;
     padding-top: 50px;
   }
-  .landpage-text-container{
+
+  .landpage-text-container {
     text-align: center;
     width: 85%;
     align-self: center;
     padding-left: 0px;
     text-align: left;
   }
-  .landpage-text-container p{
+
+  .landpage-text-container p {
     margin: 30px 0px;
     line-height: 22px;
   }
-  .landpage-text-container h1{
+
+  .landpage-text-container h1 {
     font-weight: 600;
     font-size: 1.7rem;
     color: white;
-    font-family: 'Segoe UI','Poppins','Roboto' Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Poppins', 'Roboto' Tahoma, Geneva, Verdana, sans-serif;
   }
-  .launch-btn{
+
+  .launch-btn {
     margin: 40px 0px 0px 0px;
   }
-  .emphasy{
+
+  .emphasy {
     font-size: 1.8rem;
-    font-family: 'Segoe UI','Poppins','Roboto' Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Poppins', 'Roboto' Tahoma, Geneva, Verdana, sans-serif;
   }
-  .bg-svg{
+
+  .bg-svg {
     display: none;
   }
 }

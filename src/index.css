@@ -65,11 +65,11 @@ body{
   --secondary-color:rgb(30, 30, 46);
   --facebook-mild:rgb(217, 217, 217);
   --mild-color:#ddd;
-  --dark-mild:#565674;
+  --dark-mild:#cdcdcd;
   --facebook-variant:#044b7e;
   --color-variant:#488aec;
   --dark:rgb(31, 30, 88);
-  --light-pink:rgb(255, 249, 252);
+  --light-pink:rgb(249, 253, 255);
   --aliceblue:rgb(244, 250, 255);
   --light-green:rgb(245, 255, 254);
 }
@@ -88,7 +88,7 @@ h3{
   font-weight: 500;
   font-family: 'Poppins','Montserrat',sans-serif,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: capitalize;
-  color: #0b4c89;
+  color: var(--primary-color);
 }
 section{
   width: 85%;
@@ -126,17 +126,17 @@ button {
 .header h2{
   font-weight: 400;
   text-transform: uppercase;
-  color: var(--facebook-variant);
+  color: var(--primary-color);
   font-size: 1rem;
 }
 .header-line{
   width: 40px ;
   margin-right: 10px;
   height: 2px;
-  background-color: var(--facebook-variant);
+  background-color: var(--primary-color);
 }
 .why-choose-us-text-container h1{
-  color: var(--dark);
+  color: var(--primary-color);
   font-weight: 500;
   width: 80%;
   font-size: 2rem;

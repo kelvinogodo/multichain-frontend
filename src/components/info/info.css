@@ -1,12 +1,14 @@
 .info-section{
     width: 100%;
-    background-color: var(--facebook-mild);;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1840' height='1500' preserveAspectRatio='none' viewBox='0 0 1840 1500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1063%26quot%3b)' fill='none'%3e%3crect width='1840' height='1500' x='0' y='0' fill='rgba(10%2c 97%2c 188%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c620.148C127.512%2c621.344%2c259.258%2c638.198%2c372.631%2c579.825C491.223%2c518.765%2c579.337%2c411.15%2c638.298%2c291.501C698.394%2c169.549%2c723.785%2c33.224%2c708.565%2c-101.876C693.043%2c-239.657%2c642.885%2c-373.6%2c551.614%2c-477.976C460.57%2c-582.092%2c336.564%2c-658.003%2c200.511%2c-682.877C71.083%2c-706.539%2c-51.656%2c-642.35%2c-179.599%2c-611.658C-315.387%2c-579.084%2c-489.363%2c-608.412%2c-573.734%2c-497.143C-658.793%2c-384.967%2c-572.944%2c-224.007%2c-580.147%2c-83.413C-586.504%2c40.657%2c-651.747%2c161.985%2c-613.562%2c280.204C-573.622%2c403.859%2c-481.831%2c509.902%2c-368.166%2c572.878C-257.701%2c634.081%2c-126.281%2c618.964%2c0%2c620.148' fill='%23084d95'%3e%3c/path%3e%3cpath d='M1840 2192.8630000000003C1967.924 2173.8379999999997 2019.908 2017.641 2120.148 1935.9189999999999 2205.607 1866.248 2337.941 1848.6100000000001 2384.7290000000003 1748.769 2431.569 1648.818 2358.3959999999997 1535.694 2359.429 1425.317 2360.717 1287.704 2474.842 1131.632 2391.529 1022.097 2309.755 914.585 2134.254 972.224 2000.494 953.407 1888.555 937.66 1781.569 903.236 1669.866 920.576 1546.488 939.728 1415.842 967.467 1329.4180000000001 1057.578 1241.554 1149.191 1217.0819999999999 1282.234 1202.1100000000001 1408.285 1187.4180000000001 1531.975 1190.5140000000001 1659.706 1244.568 1771.925 1298.042 1882.94 1400.022 1956.92 1500.641 2028.0520000000001 1605.449 2102.1459999999997 1713.042 2211.744 1840 2192.8630000000003' fill='%230c75e4'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1063'%3e%3crect width='1840' height='1500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-position: top;
     border-radius: 3px;
     padding: 50px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .info-wrapper{
     width: 85%;
     display: flex;
@@ -23,7 +25,6 @@
     border-radius: 10px;
     width: 100%;
     background-color: var(--light-pink);
-    box-shadow: 0px 3px 40px #e5e9f3;
     cursor: pointer;
     padding: 30px 20px;
     display: flex;
@@ -74,7 +75,6 @@
     background-color: var(--light-green);
     height: 200px;
     border-radius: 10px;
-    box-shadow: 0px 3px 40px #e5e9f3;
     cursor: pointer;
     padding: 10px 10px;
 }

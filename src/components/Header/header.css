@@ -1,7 +1,8 @@
 header{
     position: sticky;
     top: 0px;
-    background-color: var(--primary-color);
+    z-index: 4;
+    background-color: transparent;
     width: 100%;
     padding: 10px;
     display: flex;
@@ -10,14 +11,12 @@ header{
     align-self: flex-start;
     transition: all .5s ease-in-out;
     height: 60px;
-    z-index: 10;
 }
 
 .scroll-color{
-    background-color: white;
+    background-color: var(--facebook-variant);
     position: fixed;
     top: 0px;
-    box-shadow: 1px 1px 5px rgb(222, 222, 222);
 }
 
 nav {
@@ -27,38 +26,43 @@ nav {
     justify-content: flex-end;
 }
 
-nav ul{
+nav ul {
     width: 60%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-nav ul li{
+
+nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-.line{
+
+.line {
     height: 1.5px;
     width: 0px;
     transition: all .3s ease;
     background-color: var(--primary-color);
 }
-nav ul li:hover .line{
+
+nav ul li:hover .line {
     width: 100%;
 }
+
 nav ul li a {
-    color:black;
+    color: white;
     text-transform: capitalize;
     font-size: .9rem;
 }
-.signup-btn{
+
+.signup-btn {
     padding: 10px 25px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:var(--color-variant);
+    background-color: var(--color-variant);
     color: var(--primary-color);
     text-transform: capitalize;
     border-radius: 5rem;
@@ -69,18 +73,22 @@ nav ul li a {
     margin-top: 0px;
 }
 .logo-container{
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 20%;
     overflow: hidden;
     padding-left: 85px;
 }
+
 .logo{
+    display: none;
     object-fit: contain;
     cursor: pointer;
     width: 100%;
     align-self: center;
+}
+.scroll {
+    display: block;
 }
 .txtlogo{
     height: 80px;
