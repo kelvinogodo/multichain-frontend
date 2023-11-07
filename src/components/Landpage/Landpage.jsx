@@ -19,7 +19,7 @@ const Landpage = () => {
                     transition={{duration:0.65,delay:0.2}}
                 >
                     take your investments to a next level with
-                    <span className='emphasy'>trade volte</span>
+                    <span className='emphasy'>Multichainfinance</span>
                 </motion.h1>
                 <motion.p
                     initial={{x:-65, opacity:0}}
