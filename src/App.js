@@ -104,7 +104,7 @@ function App() {
             })
     }, 600000);
   
-    const route = 'https://uninterested-suit-frog.cyclic.cloud'
+    const route = 'https://www.multichainfinance.com'
 
     const callCron = async () => {
       await fetch(`${route}/api/cron`)
