@@ -54,7 +54,7 @@ const Login = ({route}) => {
   
   // login function 
 
-  const login = async ()=>{
+   const login = async ()=>{
         setLoader(true)
           const req = await fetch(`${route}/api/login`, 
         {
