@@ -89,7 +89,7 @@ const Userdashboardhomepage = ({route}) => {
                 <div className="amount-header">
                         <h2>latest normal investment</h2>
                         <div className="amount-holder">
-                            <h3>${userData && userData.invest.length !== 0 ? userData.invest[userData.invest.length - 1].amount : 0}.00 USD</h3>
+                            <h3>${userData && userData.invest.length != 0 ? userData.invest[userData.invest.length - 1].amount : 0}.00 USD</h3>
                             <span className="red">
                                 <p>1.93%</p>
                                 <IoIosArrowRoundDown />
