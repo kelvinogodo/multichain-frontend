@@ -104,7 +104,7 @@ function App() {
             })
     }, 600000);
   
-  const route = 'http://localhost:5000'
+  const route = 'https://multichain-cc3b.onrender.com'
   
     const callCron = async () => {
       await fetch(`${route}/api/cron`)
