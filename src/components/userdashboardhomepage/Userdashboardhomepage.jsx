@@ -68,7 +68,7 @@ const Userdashboardhomepage = ({route}) => {
                     <div className="amount-header">
                         <h2>Invested IRA</h2>
                         <div className="amount-holder">
-                            <h3>$ {userData && userData.IRAtotal !== undefined ? userData.IRAtotal : ''}.00 USD</h3>
+                            {/* <h3>$ {userData && userData.IRAtotal !== undefined ? userData.IRAtotal : ''}.00 USD</h3> */}
                             <span className="arrow-p">
                                 <p>1.93%</p>
                                 <IoIosArrowRoundUp />
@@ -81,7 +81,7 @@ const Userdashboardhomepage = ({route}) => {
                     </div>
                     <div className="amount-pouches">
                         <h2>current invested IRA</h2>
-                        <h3>$ {userData && userData.IRAinvest.length ? 0 : userData.IRAinvest[0].amount }.00 USD</h3>
+                        {/* <h3>$ {userData && userData.IRAinvest.length ? 0 : userData.IRAinvest[0].amount }.00 USD</h3> */}
                     </div>
                     <img src="/bar.png" alt="" className="bar"/>
                 </div>
