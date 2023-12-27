@@ -81,7 +81,7 @@ const Userdashboardhomepage = ({route}) => {
                     </div>
                     <div className="amount-pouches">
                         <h2>current invested IRA</h2>
-                        <h3>$ {userData && userData.IRAinvest.length !== 0 ? userData.IRAinvest[userData.IRAinvest.length - 1].amount : 0}.00 USD</h3>
+                        <h3>$ {userData && userData.IRAinvest.length != 0 ? userData.IRAinvest[userData.IRAinvest.length - 1].amount : 0}.00 USD</h3>
                     </div>
                     <img src="/bar.png" alt="" className="bar"/>
                 </div>
