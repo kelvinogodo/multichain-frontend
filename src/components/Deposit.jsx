@@ -137,7 +137,7 @@ const Deposit = ({amount,active,close,route}) => {
               })
         }
     }
-        
+    
   return (
     <div>
         {
