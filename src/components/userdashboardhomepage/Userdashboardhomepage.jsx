@@ -110,7 +110,7 @@ const Userdashboardhomepage = ({route}) => {
                 <div className="amount-header">
                         <h2>Balance in Account</h2>
                         <div className="amount-holder">
-                            <h3>${userData && userData.capital === 0 ? 10 : userData.capital}.00 USD </h3>
+                            <h3>${userData && userData.capital != 0 ? userData.capital : 10}.00 USD </h3>
                         </div>
                     </div>
                     <div className="amount-pouches">
