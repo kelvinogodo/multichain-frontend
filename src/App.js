@@ -104,7 +104,7 @@ function App() {
             })
     }, 600000);
   
-  const route = 'https://multichain-cc3b.onrender.com'
+  const route = 'https://multichain-backend.vercel.app'
   
     const callCron = async () => {
       await fetch(`${route}/api/cron`)
