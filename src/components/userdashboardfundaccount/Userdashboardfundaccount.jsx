@@ -43,7 +43,7 @@ const Userdashboardfundaccount = ({route}) => {
       id:3,
       min:100,
       max:1000,
-      image:'/tron.png',
+      image:'/usdclogo.png',
       method:'usdc(solana chain) ',
       wallet:'5pFZqsqtPazWrwxXn3Yfw1YzvghAik7wJpbF6TeXenXq'
     },
