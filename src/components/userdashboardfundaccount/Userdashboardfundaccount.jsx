@@ -52,7 +52,7 @@ const Userdashboardfundaccount = ({route}) => {
       min:100,
       max:1000,
       image:'/solana.png',
-      method:'solana(SOL) ',
+      method:'solana',
       wallet:'5pFZqsqtPazWrwxXn3Yfw1YzvghAik7wJpbF6TeXenXq'
     },
   ])
