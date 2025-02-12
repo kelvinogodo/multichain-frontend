@@ -29,7 +29,7 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/btc.png',
       method:'BTC',
-      wallet:'bc1q6fd3nlam0hs743pwlstvssm0n54vyxwea3ff9j',
+      wallet:'bc1qfgyww7m0gsgyjkp4h2d6rd9pxxlcn2pdyqh2nx',
     },
     {
       id:2,
@@ -37,15 +37,23 @@ const Userdashboardfundaccount = ({route}) => {
       max:1000,
       image:'/etherium.png',
       method:'ETH',
-      wallet:'0x113325A424909E236219c9b7a18ce4B97Db97141'
+      wallet:'0x01FeF76B34d60219c83177A701734cC578e69CD1'
     },
     {
       id:3,
       min:100,
       max:1000,
       image:'/tron.png',
-      method:'tether(TRC20) ',
-      wallet:'THNphhBhY8M5RFjQBfsu9xuLYNCGxWL8EC'
+      method:'usdc(solana chain) ',
+      wallet:'5pFZqsqtPazWrwxXn3Yfw1YzvghAik7wJpbF6TeXenXq'
+    },
+    {
+      id:4,
+      min:100,
+      max:1000,
+      image:'/tron.png',
+      method:'solana(TRC20) ',
+      wallet:'5pFZqsqtPazWrwxXn3Yfw1YzvghAik7wJpbF6TeXenXq'
     },
   ])
 
