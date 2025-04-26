@@ -32,6 +32,14 @@ const Userdashboardfundaccount = ({route}) => {
       wallet:'bc1qfgyww7m0gsgyjkp4h2d6rd9pxxlcn2pdyqh2nx',
     },
     {
+      id:5,
+      min:100,
+      max:1000,
+      image:'/tron.png',
+      method:'USDT (ERC20)',
+      wallet:'0x29617e96c2efaed2b00bc52c8c174601ccab4534',
+    },
+    {
       id:2,
       min:100,
       max:1000,
